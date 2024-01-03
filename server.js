@@ -38,6 +38,6 @@ app.post("/my-goal", (req, res) => {
   res.redirect("/");
 });
 
-app.listen(8000, () => {
+app.listen(80, () => {
   console.log("Listening");
 });
